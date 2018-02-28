@@ -1,0 +1,637 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Connect.Home.master.cs" Inherits="Coupon.Connect_Home" %>
+
+<!DOCTYPE html>
+
+<%@ Register Src="~/controls/uc_menu.ascx" TagPrefix="uc1" TagName="uc_menu" %>
+<html>
+<head runat="server">
+    <meta charset="UTF-8" />
+
+    <title>Coupon World</title>
+    <link rel="stylesheet" href="../NewDesign/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selectore2c9.css?v=2.9.2" type="text/css" media="all" />
+
+    <meta name="description" content="BRIDGE is a retina multi-purpose WordPress theme built on very powerful and flexible framework by QODE.">
+
+    <meta name="keywords" content="agency, ajax, background video, blog, business, clean, creative, fullscreen, mega menu, modern, multi-purpose, parallax, portfolio, responsive, retina">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="../NewDesign/xmlrpc.php" />
+    <link rel="shortcut icon" type="image/x-icon" href="../NewDesign/wp-content/themes/bridge/img/favicon.ico">
+    <link rel="apple-touch-icon" href="../NewDesign/wp-content/themes/bridge/img/favicon.ico" />
+    <!--[if gte IE 9]>
+        <style type="text/css">
+            .gradient {
+                 filter: none;
+            }
+        </style>
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <link rel='stylesheet' href='../NewDesign/wp-content/plugins/LayerSlider/static/css/layersliderf08a.css?ver=5.2.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/style1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/font-awesome/css/font-awesome.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/elegant-icons/style.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/stylesheet.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/woocommerce.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/woocommerce_responsive.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/style_dynamic8610.css?ver=1490607301' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/responsive.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/style_dynamic_responsive8610.css?ver=1490607301' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/plugins/js_composer/assets/css/js_composer7035.css?ver=4.3.4' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/custom_css8610.css?ver=1490607301' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/uploads/js_composer/custom7035.css?ver=4.3.4' type='text/css' media='screen' />
+    <script type='text/javascript' src='../NewDesign/wp-includes/js/jquery/jquery90f9.js?ver=1.11.1'></script>
+    <script type='text/javascript' src='../NewDesign/wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jqueryf08a.js?ver=5.2.0'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/plugins/LayerSlider/static/js/greensock4a80.js?ver=1.11.2'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/plugins/LayerSlider/static/js/layerslider.transitionsf08a.js?ver=5.2.0'></script>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../NewDesign/xmlrpc0db0.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../NewDesign/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.0.7" />
+    <meta name="generator" content="WooCommerce 2.2.4" />
+    <link rel='canonical' href='index.html' />
+    <link rel='shortlink' href='../NewDesign/index2586.html?p=180' />
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://demo.qodeinteractive.com/bridge/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]-->
+</head>
+<body class="page page-id-14006 page-template page-template-full_width-php ajax_fade page_not_loaded  qode-theme-ver-5.4 wpb-js-composer js-comp-ver-4.3.4 vc_responsive">
+
+    <div class="ajax_loader">
+        <div class="ajax_loader_1">
+            <div class="pulse"></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="wrapper_inner">
+            <!-- Google Analytics start -->
+            <script>
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-50398491-1']);
+                _gaq.push(['_trackPageview']);
+
+                (function () {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
+            <header class="has_woocommerce_dropdown  scroll_header_top_area stick transparent page_header">
+                <div class="header_inner clearfix">
+
+                    <div class="header_top_bottom_holder">
+                        <div class="header_bottom clearfix">
+                            <div class="container">
+                                <div class="container_inner clearfix">
+                                    <div class="header_inner_left">
+                                        <div class="mobile_menu_button"><span><i class="fa fa-bars"></i></span></div>
+                                        <div class="logo_wrapper">
+                                            <div class="q_logo">
+                                                 <a href='<%= ResolveUrl("~/home") %>' style="max-height: 60px;">
+                                                    <img class="normal" src="images/logo.png" alt="Logo" />
+                                                    <img class="light" src="images/logo.png" alt="Logo" />
+                                                    <img class="dark" src="images/logo.png" alt="Logo" />
+                                                    <img class="sticky" src="images/logo.png" alt="Logo" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <uc1:uc_menu runat="server" ID="uc_menu" />
+
+                                    <%--  <nav class="main_menu drop_down right">
+                                        <ul id="menu-top_menu" class="">
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a target="_blank" href="<%= ResolveUrl("~/home") %>" class=""><i class="menu_icon fa blank"></i><span>Home</span><span class="plus"></span></a></li>
+                                            <li id="nav-menu-item-9723" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children  has_sub narrow">
+                                                <a href="<%= ResolveUrl("~/home") %>" class=" current "><i class="menu_icon fa blank"></i><span>GET TO KNOW US</span><span class="plus"></span></a>
+                                                <div class="second">
+                                                    <div class="inner">
+                                                        <ul>
+                                                            <li id="nav-menu-item-14534" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/about-us") %>" class=""><i class="menu_icon fa blank"></i><span>ABOUT US</span><span class="plus"></span></a></li>
+                                                            <li id="nav-menu-item-13382" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/how-it-work") %>" class=""><i class="menu_icon fa blank"></i><span>HOW IT WORKS</span><span class="plus"></span></a></li>
+                                                            <li id="nav-menu-item-14054" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14006 current_page_item "><a href="<%= ResolveUrl("~/contact-us") %>" class=""><i class="menu_icon fa blank"></i><span>CONTACT US</span><span class="plus"></span></a></li>
+                                                            <li id="nav-menu-item-14322" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="#" class=""><i class="menu_icon fa blank"></i><span>FAQ</span><span class="plus"></span></a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li id="nav-menu-item-9729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
+                                                <a href="#" class=""><i class="menu_icon fa blank"></i><span>SEVA COMMUNITY</span><span class="plus"></span></a>
+                                                <div class="second">
+                                                    <div class="inner">
+                                                        <ul>
+                                                            <li id="nav-menu-item-13414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/consumer-details") %>" class=""><i class="menu_icon fa blank"></i><span>CONSUMERS</span><span class="plus"></span></a></li>
+                                                            <li id="nav-menu-item-13394" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/merchants-details") %>" class=""><i class="menu_icon fa blank"></i><span>MERCHANTS</span><span class="plus"></span></a></li>
+                                                            <li id="nav-menu-item-14115" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/organization-details") %>" class=""><i class="menu_icon fa blank"></i><span>ORGANIZATION</span><span class="plus"></span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a target="_blank" href="<%= ResolveUrl("~/market-place") %>" class=""><i class="menu_icon fa blank"></i><span>MarketPlace</span><span class="plus"></span></a></li>
+                                            <li id="nav-menu-item-9733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
+                                                <a href="#" class=""><i class="menu_icon fa blank"></i><span>SIGN UP</span><span class="plus"></span></a>
+                                                <div class="second">
+                                                    <div class="inner">
+                                                        <ul>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/consumer") %>" class=""><i class="menu_icon fa blank"></i><span>CONSUMERS</span><span class="plus"></span></a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/organization") %>" class=""><i class="menu_icon fa blank"></i><span>MERCHANTS</span><span class="plus"></span></a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/retailers") %>" class=""><i class="menu_icon fa blank"></i><span>ORGANIZATION</span><span class="plus"></span></a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/small-business") %>" class=""><i class="menu_icon fa blank"></i><span>SMALL BUSINESS</span><span class="plus"></span></a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
+                                                <a href="#" class=""><i class="menu_icon fa blank"></i><span>Login</span><span class="plus"></span></a>
+                                                <div class="second">
+                                                    <div class="inner">
+                                                        <ul>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/login/consumer/1") %>" class=""><i class="menu_icon fa blank"></i><span>CONSUMERS</span><span class="plus"></span></a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/login/orgnization/2") %>" class=""><i class="menu_icon fa blank"></i><span>MERCHANTS</span><span class="plus"></span></a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/login/retailer/3") %>" class=""><i class="menu_icon fa blank"></i><span>ORGANIZATION</span><span class="plus"></span></a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="<%= ResolveUrl("~/login/small-business/4") %>" class=""><i class="menu_icon fa blank"></i><span>SMALL BUSINESS</span><span class="plus"></span></a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </nav>
+                                    <nav class="mobile_menu">
+                                        <ul id="menu-top_menu-1" class="">
+                                            <li id="mobile-menu-item-9723" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children  has_sub">
+                                                <a href="../index.html" class=" current "><span>Home</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                <ul class="sub_menu">
+                                                    <li id="mobile-menu-item-14534" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../index.html" class=""><span>Home 1</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-13382" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../home-2/index.html" class=""><span>Home 2</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14054" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14006 current_page_item "><a href="index.html" class=""><span>Home 3</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14322" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../home-4/index.html" class=""><span>Home 4</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../home-5/index.html" class=""><span>Home 5</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14091" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../home-6/index.html" class=""><span>Home 6</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14619" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../layer-slider/index.html" class=""><span>Layer Slider</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14621" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../semitransparent-header/index.html" class=""><span>Semitransparent Header</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14622" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../white-header/index.html" class=""><span>White Header</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../home-portfolio/index.html" class=""><span>Home Portfolio</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                </ul>
+                                            </li>
+                                            <li id="mobile-menu-item-16862" class="menu-item menu-item-type-custom menu-item-object-custom "><a target="_blank" href="http://bridgelanding.qodeinteractive.com/" class=""><span>Demos &#038; Features</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                            <li id="mobile-menu-item-9729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                <a href="#" class=""><span>Pages</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                <ul class="sub_menu">
+                                                    <li id="mobile-menu-item-13414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../about-us/index.html" class=""><span>About Us</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-13394" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../about-our-company/index.html" class=""><span>About Our Company</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14115" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../our-process/index.html" class=""><span>Our Process</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14517" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../services/index.html" class=""><span>Services</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14518" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../cover-galleries/index.html" class=""><span>Cover Galleries</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14572" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Headers / Title Area</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-14608" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../text-animation-header/index.html" class=""><span>Text Animation Header</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14581" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../regular-parallax/index.html" class=""><span>Regular Parallax</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14582" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../zoom-out-parallax/index.html" class=""><span>Zoom Out Parallax</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14607" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../video-header/index.html" class=""><span>Video Header</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14609" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../uncovering-header/index.html" class=""><span>Uncovering Header</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14610" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/with-text/mono-color-header/index.html" class=""><span>Mono-Color Header</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14569" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../responsive-image/index.html" class=""><span>Responsive Image</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="mobile-menu-item-14611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Headers / Menu Area</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-14606" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../transparent-menu/index.html" class=""><span>Semitransparent Menu</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14605" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../black-menu/index.html" class=""><span>Black Menu</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14604" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../white-menu/index.html" class=""><span>White Menu</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="mobile-menu-item-14519" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../full-width-page/index.html" class=""><span>Full Width Page</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14541" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../contact/index.html" class=""><span>Contact Us</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14176" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../parallax-presentation/index.html" class=""><span>Parallax Presentation</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../left-sidebar/index.html" class=""><span>Left Sidebar</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-14544" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../right-sidebar/index.html" class=""><span>Right Sidebar</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                </ul>
+                                            </li>
+                                            <li id="mobile-menu-item-9733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                <a href="#" class=""><span>Elements</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                <ul class="sub_menu">
+                                                    <li id="mobile-menu-item-13515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Infographics / Icons</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-13518" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../zero-counters/index.html" class=""><span>Zero Counters</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13516" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../random-counters/index.html" class=""><span>Random Counters</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13519" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../horizontal-progress-bars/index.html" class=""><span>Horizontal Progress Bars</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13517" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../vertical-progress-bars/index.html" class=""><span>Vertical Progress Bars</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13537" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../icon-progress-bars/index.html" class=""><span>Icon Progress Bars</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../pie-charts/index.html" class=""><span>Pie Charts</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13560" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../pie-chart-icon/index.html" class=""><span>Pie Chart With Icon</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13578" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../process-shortcode/index.html" class=""><span>Process Shortcode</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13739" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../icons/index.html" class=""><span>Icon Combinations</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13914" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../social-icons/index.html" class=""><span>Social Icons</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="mobile-menu-item-9744" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Interactive Elements</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-13639" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../cover-boxes/index.html" class=""><span>Cover Boxes</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13835" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../team/index.html" class=""><span>Team Shortcode</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13845" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../carousel/index.html" class=""><span>Clients Carousel</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13868" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../parallax/index.html" class=""><span>Parallax</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13879" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../interactive-banners/index.html" class=""><span>Interactive Banners</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13885" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../gallery-frame/index.html" class=""><span>Gallery With Frame</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13890" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio-slider/index.html" class=""><span>Portfolio Slider</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13896" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../image-gallery/index.html" class=""><span>Gallery Grayscale</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13930" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../expandable/index.html" class=""><span>Expandable Sections</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="mobile-menu-item-9756" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Common Elements</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-13594" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../tabs/index.html" class=""><span>Tabs</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13608" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../pricing-tables/index.html" class=""><span>Pricing Tables</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13628" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../accordion-toggle/index.html" class=""><span>Accordions And Toggles</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13648" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../message-boxes/index.html" class=""><span>Message Boxes</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13657" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../buttons/index.html" class=""><span>Buttons</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13686" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../service-tables/index.html" class=""><span>Service Tables</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13692" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../latest-posts-boxes/index.html" class=""><span>Latest Posts Boxes</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13716" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../latest-posts-small-image/index.html" class=""><span>Latest Posts Small Image</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13769" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../call-to-action/index.html" class=""><span>Call To Action</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="mobile-menu-item-9768" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Typography / Misc.</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-13949" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../columns/index.html" class=""><span>Columns</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13961" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../dropcaps/index.html" class=""><span>Dropcaps</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13970" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../headings/index.html" class=""><span>Heading Styles</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13981" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../blockquotes/index.html" class=""><span>Blockquotes</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14004" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../highlights/index.html" class=""><span>Highlights</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-14072" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../custom-fonts/index.html" class=""><span>Custom Fonts</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13821" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../lists/index.html" class=""><span>Lists</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13789" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../separators/index.html" class=""><span>Separators</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-13858" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../testimonials/index.html" class=""><span>Testimonials</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="mobile-menu-item-10774" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                <a href="#" class=""><span>Work</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                <ul class="sub_menu">
+                                                    <li id="mobile-menu-item-10876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Default (Text And Space)</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-10874" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/with-text/two-columns-grid/index.html" class=""><span>Two Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/with-text/three-columns-grid/index.html" class=""><span>Three Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10893" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/with-text/four-columns-grid/index.html" class=""><span>Four Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10894" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/with-text/four-columns-wide/index.html" class=""><span>Four Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10890" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/with-text/five-columns-wide/index.html" class=""><span>Five Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10901" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/with-text/six-columns-wide/index.html" class=""><span>Six Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="mobile-menu-item-10878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Gallery Style With Space</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-10873" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style/two-columns-grid/index.html" class=""><span>Two Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10911" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style/three-columns-grid/index.html" class=""><span>Three Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10895" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style/four-columns-grid/index.html" class=""><span>Four Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10896" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style/four-columns-wide/index.html" class=""><span>Four Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10886" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style/five-columns-wide-2/index.html" class=""><span>Five Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10910" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style/six-columns-wide-2/index.html" class=""><span>Six Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="mobile-menu-item-10879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Gallery Style No Space</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-11934" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style-condensed/two-columns-grid/index.html" class=""><span>Two Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10908" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style-condensed/three-columns-grid/index.html" class=""><span>Three Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10891" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style-condensed/four-columns-grid/index.html" class=""><span>Four Columns Grid</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10892" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style-condensed/four-columns-wide/index.html" class=""><span>Four Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10888" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style-condensed/five-columns-wide/index.html" class=""><span>Five Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10907" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../portfolio/gallery-style-condensed/six-columns-wide/index.html" class=""><span>Six Columns Wide</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="mobile-menu-item-11034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <h3><span>Single Project</span></h3>
+                                                        <span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-11035" class="menu-item menu-item-type-post_type menu-item-object-portfolio_page "><a href="../portfolio_page/art-design-blvd/index.html" class=""><span>Vertical Floating Sidebar</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-11037" class="menu-item menu-item-type-post_type menu-item-object-portfolio_page "><a href="../portfolio_page/stockholm-fashion-destination/index.html" class=""><span>Vertical Wide Project</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-11038" class="menu-item menu-item-type-post_type menu-item-object-portfolio_page "><a href="../portfolio_page/smash-pop-art-storm/index.html" class=""><span>Small Slider Project</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-11039" class="menu-item menu-item-type-post_type menu-item-object-portfolio_page "><a href="../portfolio_page/der-spiegel-cover-art/index.html" class=""><span>Big Slider Project</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-11040" class="menu-item menu-item-type-post_type menu-item-object-portfolio_page "><a href="../portfolio_page/berlin-design-week-poster/index.html" class=""><span>Gallery</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-11041" class="menu-item menu-item-type-post_type menu-item-object-portfolio_page "><a href="../portfolio_page/video-performance-festival-2014/index.html" class=""><span>Video (In Any Template)</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="mobile-menu-item-9779" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                <a href="#" class=""><span>Blog</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                <ul class="sub_menu">
+                                                    <li id="mobile-menu-item-9891" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../blog/large-image-2/index.html" class=""><span>Large Image</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-9888" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../blog/masonry/index.html" class=""><span>Masonry</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-9917" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../blog/small-image/index.html" class=""><span>Medium Image</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-9890" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../blog/large-image/index.html" class=""><span>Blog With Sidebar</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-10741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                                        <a href="#" class=""><span>Single Post</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                        <ul class="sub_menu">
+                                                            <li id="mobile-menu-item-10743" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="../josh-woodward-already-there/index.html" class=""><span>Audio Post</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10744" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="../icelands-biggest-volcano-timelapse/index.html" class=""><span>Video Post</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10747" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="../jeffrey-veen-quote/index.html" class=""><span>Blockquote post</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10748" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="../unlocking-brain-secrets/index.html" class=""><span>Link Post</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10750" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="../portugal-2013-road-trip-gallery/index.html" class=""><span>Gallery Post</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10751" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="../recent-trends-in-storytelling/index.html" class=""><span>Post Without Sidebar</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                            <li id="mobile-menu-item-10769" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="../inteligent-transitions-in-ux-design/index.html" class=""><span>Standard Post</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="mobile-menu-item-12039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub">
+                                                <a href="../shop/index.html" class=""><span>Shop</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                                <ul class="sub_menu">
+                                                    <li id="mobile-menu-item-12040" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../shop/index.html" class=""><span>Shop With Sidebar</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                    <li id="mobile-menu-item-11623" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="../shop-2/index.html" class=""><span>Shop Full Width</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>--%>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <a id='back_to_top' href='#'>
+                <span class="fa-stack">
+                    <i class="fa fa-arrow-up" style=""></i>
+                </span>
+            </a>
+            <div class="content ">
+                <!--<div class="meta">
+
+                    <div class="seo_title">Bridge |   Home 3</div>
+
+                    <div class="seo_description">BRIDGE is a retina multi-purpose WordPress theme built on very powerful and flexible framework by QODE.</div>
+                    <div class="seo_keywords">agency, ajax, background video, blog, business, clean, creative, fullscreen, mega menu, modern, multi-purpose, parallax, portfolio, responsive, retina</div>
+
+                    <span id="qode_page_id">14006</span>
+                    <div class="body_classes">page,page-id-14006,page-template,page-template-full_width-php,ajax_fade,page_not_loaded,,qode-theme-ver-5.4,wpb-js-composer js-comp-ver-4.3.4,vc_responsive</div>
+                </div>-->
+                <div class="content_inner  ">
+                    <script>
+                        var page_scroll_amount_for_sticky = 650;
+                    </script>
+                    <div class="q_slider">
+                        <div class="q_slider_inner">
+                            <div id="qode-home-slider-2" class="carousel slide q_auto_start header_effect  header_not_transparent" data-slide_animation="6000" data-height='702' data-parallax="yes" style="height: 702px; top: 100px">
+                                <div class="qode_slider_preloader">
+                                    <div class="ajax_loader">
+                                        <div class="ajax_loader_1">
+                                            <div class="pulse"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-inner " data-start="transform: translateY(0px);" data-1440="transform: translateY(-500px);">
+                                    <div class="item dark" style="height: 702px;">
+                                        <div class="image" style="background-image: url(images/banner/1.jpg);">
+                                            <img src="images/banner/1.jpg" alt="WE&#8217;LL HELP MANAGE YOUR BUSINESS">
+                                        </div>
+                                        <div class="slider_content_outer">
+                                            <div class="slider_content center" style="width: 98%; left: 1%; top: 38%;" data-start="width:98%; opacity:1; left:1%; top:38%;" data-300="opacity: 0; left:1%; top:28%;">
+                                                <div class="text  no_subtitle no_separator">
+                                                    <h2 class="" style="color: #fffefe; font-size: 56px; line-height: 60px; text-shadow: none;"><span style="">EMPOWER  <span>YOUR</span> COMMUNITY</span></h2>
+                                                    <%-- <p style="text-shadow: none;"><span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span></p>--%>
+                                                    <a class="qbutton white" href="#">SEE MORE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item dark" style="height: 702px;">
+                                        <div class="image" style="background-image: url(images/banner/2.jpg);">
+                                            <img src="images/banner/2.jpg" alt="WE&#8217;LL HELP MANAGE YOUR BUSINESS">
+                                        </div>
+                                        <div class="slider_content_outer">
+                                            <div class="slider_content center" style="width: 98%; left: 1%; top: 38%;" data-start="width:98%; opacity:1; left:1%; top:38%;" data-300="opacity: 0; left:1%; top:28%;">
+                                                <div class="text  no_subtitle no_separator">
+                                                    <h2 class="" style="color: #fffefe; font-size: 56px; line-height: 60px; text-shadow: none;">DO YOU SEVA?</h2>
+                                                    <%--  <p style="color: #fffefe; text-shadow: none;"><span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span></p>--%>
+                                                    <a class="qbutton white" style='border-color: #fffefe; color: #fffefe;' href="#">SEE MORE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item dark" style="height: 702px;">
+                                        <div class="image" style="background-image: url(images/banner/3.jpg);">
+                                            <img src="images/banner/3.jpg" alt="WE&#8217;LL HELP MANAGE YOUR BUSINESS">
+                                        </div>
+                                        <div class="slider_content_outer">
+                                            <div class="slider_content center" style="width: 98%; left: 1%; top: 38%;" data-start="width:98%; opacity:1; left:1%; top:38%;" data-300="opacity: 0; left:1%; top:28%;">
+                                                <div class="text  no_subtitle no_separator">
+                                                    <h2 class="" style="color: #fffefe; font-size: 56px; line-height: 60px; text-shadow: none;">SAVE, SHARE, CARE</h2>
+                                                    <%-- <p style="text-shadow: none;"><span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span></p>--%>
+                                                    <a class="qbutton white" href="#">SEE MORE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item dark" style="height: 702px;">
+                                        <div class="image" style="background-image: url(images/banner/4.jpg);">
+                                            <img src="images/banner/4.jpg" alt="WE&#8217;LL HELP MANAGE YOUR BUSINESS">
+                                        </div>
+                                        <div class="slider_content_outer">
+                                            <div class="slider_content center" style="width: 98%; left: 1%; top: 38%;" data-start="width:98%; opacity:1; left:1%; top:38%;" data-300="opacity: 0; left:1%; top:28%;">
+                                                <div class="text  no_subtitle no_separator">
+                                                    <h2 class="" style="color: #fffefe; font-size: 56px; line-height: 60px; text-shadow: none;">SAVE, SHARE, CARE</h2>
+                                                    <%--  <p style="text-shadow: none;"><span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span></p>--%>
+                                                    <a class="qbutton white" href="#">SEE MORE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ol class="carousel-indicators" data-start="opacity: 1;" data-300="opacity:0;">
+                                    <li data-target="#qode-home-slider-2" data-slide-to="0"></li>
+                                    <li data-target="#qode-home-slider-2" data-slide-to="1"></li>
+                                    <li data-target="#qode-home-slider-2" data-slide-to="2"></li>
+                                    <li data-target="#qode-home-slider-2" data-slide-to="3"></li>
+                                </ol>
+                                <a class="left carousel-control" href="#qode-home-slider-2" data-slide="prev" data-start="opacity: 0.35;" data-300="opacity:0;"><span class="prev_nav"><i class="fa fa-angle-left"></i></span><span class="thumb_holder"><span class="thumb_top clearfix"><span class="arrow_left"><i class="fa fa-angle-left"></i></span><span class="numbers"><span class="prev"></span>/ 4</span></span><span class="img_outer"><span class="img"></span></span></span></a><a class="right carousel-control" href="#qode-home-slider-2" data-slide="next" data-start="opacity: 0.35;" data-300="opacity:0;"><span class="next_nav"><i class="fa fa-angle-right"></i></span><span class="thumb_holder"><span class="thumb_top clearfix"><span class="numbers"> <span class="next"></span>/ 4</span><span class="arrow_right"><i class="fa fa-angle-right"></i></span></span><span class="img_outer"><span class="img"></span></span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full_width">
+                        <div class="full_width_inner">
+                            <form id="form1" runat="server">
+
+                                <%-- <div class="content ">--%>
+
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+
+
+
+                                <%-- </div>--%>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer_inner clearfix">
+                    <div class="footer_top_holder">
+                        <div class="footer_top">
+                            <div class="container">
+                                <div class="container_inner">
+                                    <div class="four_columns clearfix">
+                                        <div class="column1">
+                                            <div class="column_inner">
+                                                <div id="text-3" class="widget widget_text">
+                                                    <div class="textwidget">
+                                                        <img class="footer_logo" src="../NewDesign/wp-content/uploads/2014/03/logo-footer.png" width='150' alt="logo" />
+
+                                                        <div class="separator  transparent center  " style="margin-top: 8px; margin-bottom: 2px;">
+                                                        </div>
+
+
+                                                        198  West 21th Street, Suite 721<br />
+                                                        New York NY 10010<br />
+                                                        Email: youremail@yourdomain.com<br />
+                                                        Phone: +88 (0) 101 0000 000<br />
+                                                        Fax: +88 (0) 202 0000 001
+
+                                                        <div class="separator  transparent center  " style="margin-top: 12px; margin-bottom: 2px;">
+                                                        </div>
+
+
+                                                        <span class='q_social_icon_holder normal_social'><a href='http://twitter.com/' target='_blank'><i class='fa fa-twitter fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+
+                                                        <span class='q_social_icon_holder normal_social'><a href='http://www.facebook.com/' target='_blank'><i class='fa fa-facebook fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+
+                                                        <span class='q_social_icon_holder normal_social'><a href='https://plus.google.com/' target='_blank'><i class='fa fa-google-plus fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+
+                                                        <span class='q_social_icon_holder normal_social'><a href='http://instagram.com/' target='_blank'><i class='fa fa-instagram fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+
+                                                        <span class='q_social_icon_holder normal_social'><a href='https://www.tumblr.com/' target='_blank'><i class='fa fa-tumblr fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column2">
+                                            <div class="column_inner">
+                                                <div id="recent-posts-10" class="widget widget_recent_entries">
+                                                    <h5>Latest From Our Blog</h5>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../NewDesign/inteligent-transitions-in-ux-design/index.html">Transitions In UX Design</a>
+                                                            <span class="post-date">October 4, 2013</span>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../NewDesign/portugal-2013-road-trip-gallery/index.html">Portugal 2013 road-trip gallery</a>
+                                                            <span class="post-date">October 4, 2013</span>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../NewDesign/josh-woodward-already-there/index.html">Josh Woodward &#8211; Already There</a>
+                                                            <span class="post-date">October 4, 2013</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column3">
+                                            <div class="column_inner">
+                                                <div id="text-4" class="widget widget_text">
+                                                    <h5>More Links</h5>
+                                                    <div class="textwidget">
+                                                        <a href="../NewDesign/index.html">Home Presentation</a>
+
+                                                        <div class="separator  transparent center  " style="margin-top: 3px; margin-bottom: 9px;">
+                                                        </div>
+
+
+                                                        <a href="../NewDesign/responsive-image/index.html">Custom Image Title</a>
+
+                                                        <div class="separator  transparent center  " style="margin-top: 3px; margin-bottom: 9px;">
+                                                        </div>
+
+
+                                                        <a href="../NewDesign/custom-fonts/index.html">Custom Font Style</a>
+
+                                                        <div class="separator  transparent center  " style="margin-top: 3px; margin-bottom: 9px;">
+                                                        </div>
+
+
+                                                        <a href="../NewDesign/parallax-presentation/index.html">Parallax Sections</a>
+
+                                                        <div class="separator  transparent center  " style="margin-top: 3px; margin-bottom: 9px;">
+                                                        </div>
+
+
+                                                        <a href="../NewDesign/contact/index.html">Contact Us</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column4">
+                                            <div class="column_inner">
+                                                <div id="text-5" class="widget widget_text">
+                                                    <h5>PHOTO STREAM</h5>
+                                                    <div class="textwidget">
+                                                        <div class="wpb_flickr_widget wpb_content_element">
+                                                            <div class="wpb_wrapper">
+                                                                <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=71865026@N00"></script>
+                                                                <p class="flickr_stream_wrap"><a class="wpb_follow_btn wpb_flickr_stream" href="http://www.flickr.com/photos/71865026@N00">View stream on flickr</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_bottom_holder">
+                        <div class="footer_bottom">
+                            <div class="textwidget"><span>&copy; Copyright Qode Interactive</span></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/qode-like5152.js?ver=1.0'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/plugins1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/jquery.carouFredSel-6.2.11678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/lemmon-slider1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/jquery.fullPage.min1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/jquery.mousewheel.min1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/jquery.touchSwipe.min1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/plugins/js_composer/assets/lib/isotope/dist/isotope.pkgd.min7035.js?ver=4.3.4'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/TweenLite.min1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/ScrollToPlugin.min1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/smoothPageScroll1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&amp;ver=4.0.7'></script>
+    <script type='text/javascript'>
+                        /* <![CDATA[ */
+                        var no_ajax_obj = { "no_ajax_pages": ["http:\/\/demo.qodeinteractive.com\/bridge\/shop\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/cart\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/checkout\/", false, false, "index.html\/\/demo.qodeinteractive.com\/bridge\/my-account\/", false, false, "index.html\/\/demo.qodeinteractive.com\/bridge\/portfolio\/with-text\/four-columns-grid\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/sunglasses-case\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/madrid-weekend-bag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/leather-vanity-case\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/tablet-sleeve\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/leather-weekend-bag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/vintage-handbag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/travel-leather-bag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/vintage-travel-bag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/smartphone-cover\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/leather-briefcase\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/laptop-leather-sleeve\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/leather-wallet\/", "", "http:\/\/demo.qodeinteractive.com\/bridge\/wp-login.php?action=logout&_wpnonce=8661fcd5d1"] };
+/* ]]> */
+    </script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/default_dynamic8610.js?ver=1490607301'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/default.min1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/custom_js8610.js?ver=1490607301'></script>
+    <script type='text/javascript' src='../NewDesign/wp-includes/js/comment-reply.min1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/ajax.min1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/plugins/js_composer/assets/js/js_composer_front7035.js?ver=4.3.4'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/woocommerce1678.js?ver=4.0.7'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/select2.min1678.js?ver=4.0.7'></script>
+
+</body>
+</html>

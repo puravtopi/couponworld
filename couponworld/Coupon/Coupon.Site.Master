@@ -1,0 +1,294 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Coupon.Site.master.cs" Inherits="Coupon.Coupon_Site" %>
+
+<%@ Register Src="~/controls/uc_menu.ascx" TagPrefix="uc1" TagName="uc_menu" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8" />
+
+    <title>Coupon World</title>
+    <link rel="stylesheet" href="../NewDesign/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selectore2c9.css?v=2.9.2" type="text/css" media="all" />
+
+    <meta name="description" content="BRIDGE is a retina multi-purpose WordPress theme built on very powerful and flexible framework by QODE.">
+
+    <meta name="keywords" content="agency, ajax, background video, blog, business, clean, creative, fullscreen, mega menu, modern, multi-purpose, parallax, portfolio, responsive, retina">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="../NewDesign/xmlrpc.php" />
+    <link rel="shortcut icon" type="image/x-icon" href="../NewDesign/wp-content/themes/bridge/img/favicon.ico">
+    <link rel="apple-touch-icon" href="../NewDesign/wp-content/themes/bridge/img/favicon.ico" />
+    <!--[if gte IE 9]>
+        <style type="text/css">
+            .gradient {
+                 filter: none;
+            }
+        </style>
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <link rel='stylesheet' href='../NewDesign/wp-content/plugins/LayerSlider/static/css/layersliderf08a.css?ver=5.2.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/style1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/font-awesome/css/font-awesome.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/elegant-icons/style.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/stylesheet.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/woocommerce.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/woocommerce_responsive.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/style_dynamic8610.css?ver=1490607301' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/responsive.min1678.css?ver=4.0.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/style_dynamic_responsive8610.css?ver=1490607301' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/plugins/js_composer/assets/css/js_composer7035.css?ver=4.3.4' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/themes/bridge/css/custom_css8610.css?ver=1490607301' type='text/css' media='all' />
+    <link rel='stylesheet' href='../NewDesign/wp-content/uploads/js_composer/custom7035.css?ver=4.3.4' type='text/css' media='screen' />
+    <script type='text/javascript' src='../NewDesign/wp-includes/js/jquery/jquery90f9.js?ver=1.11.1'></script>
+    <script type='text/javascript' src='../NewDesign/wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jqueryf08a.js?ver=5.2.0'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/plugins/LayerSlider/static/js/greensock4a80.js?ver=1.11.2'></script>
+    <script type='text/javascript' src='../NewDesign/wp-content/plugins/LayerSlider/static/js/layerslider.transitionsf08a.js?ver=5.2.0'></script>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../NewDesign/xmlrpc0db0.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../NewDesign/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.0.7" />
+    <meta name="generator" content="WooCommerce 2.2.4" />
+    <link rel='canonical' href='index.html' />
+    <link rel='shortlink' href='../NewDesign/index2586.html?p=180' />
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://demo.qodeinteractive.com/bridge/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]-->
+</head>
+<body class="page page-id-180 page-child parent-pageid-5990 page-template-default ajax_fade page_not_loaded  qode-theme-ver-5.4 wpb-js-composer js-comp-ver-4.3.4 vc_responsive">
+    <form id="form1" runat="server">
+        <div class="ajax_loader">
+            <div class="ajax_loader_1">
+                <div class="pulse"></div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="wrapper_inner">
+                <!-- Google Analytics start -->
+                <script>
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-50398491-1']);
+                    _gaq.push(['_trackPageview']);
+
+                    (function () {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                    })();
+                </script>
+                <!-- Google Analytics end -->
+                <header class="has_woocommerce_dropdown  scroll_header_top_area stick transparent page_header">
+                    <div class="header_inner clearfix">
+                        <%--  <form role="search" action="http://demo.qodeinteractive.com/bridge/" class="qode_search_form" method="get">
+                            <div class="container">
+                                <div class="container_inner clearfix">
+
+                                    <i class="fa fa-search"></i>
+                                    <input type="text" placeholder="Search" name="s" class="qode_search_field" autocomplete="off" />
+                                    <input type="submit" value="Search" />
+                                    <div class="qode_search_close">
+                                        <a href="#">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>--%>
+                        <div class="header_top_bottom_holder">
+                            <div class="header_bottom clearfix" style=''>
+                                <div class="container">
+                                    <div class="container_inner clearfix">
+                                        <div class="header_inner_left">
+                                            <div class="mobile_menu_button"><span><i class="fa fa-bars"></i></span></div>
+                                            <div class="logo_wrapper">
+                                                <div class="q_logo">
+                                                    <a href='<%= ResolveUrl("~/home") %>' style="max-height: 60px;">
+                                                        <img class="normal" src="images/logo.png" alt="Logo" /><img class="dark" src="images/logo.png" alt="Logo" /><img class="sticky" src="images/logo.png" alt="Logo" /></a>
+                                                    <%--  <a href="../NewDesign/index.html">
+                                                        <img class="normal" src="../NewDesign/wp-content/themes/bridge/img/logo_black.png" alt="Logo" /><img class="light" src="../NewDesign/wp-content/themes/bridge/img/logo_white.png" alt="Logo" /><img class="dark" src="../NewDesign/wp-content/themes/bridge/img/logo_black.png" alt="Logo" /><img class="sticky" src="../NewDesign/wp-content/uploads/2014/03/b23.png" alt="Logo" /></a>--%>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <%-- menu--%>
+                                        <uc1:uc_menu runat="server" ID="uc_menu" />
+                                        <%-- menu end--%>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <a id='back_to_top' href='#'>
+                    <span class="fa-stack">
+                        <i class="fa fa-arrow-up" style=""></i>
+                    </span>
+                </a>
+
+                <div class="container_inner default_template_holder clearfix page_container_inner">
+                    <%-- <div class="content ">--%>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+
+
+
+                    <%-- </div>--%>
+                </div>
+                <footer>
+                    <div class="footer_inner clearfix">
+                        <div class="footer_top_holder">
+                            <div class="footer_top">
+                                <div class="container">
+                                    <div class="container_inner">
+                                        <div class="four_columns clearfix">
+                                            <div class="column1">
+                                                <div class="column_inner">
+                                                    <div id="text-3" class="widget widget_text">
+                                                        <div class="textwidget">
+                                                            <img class="footer_logo" src="../NewDesign/wp-content/uploads/2014/03/logo-footer.png" width='150' alt="logo" />
+
+                                                            <div class="separator  transparent center  " style="margin-top: 8px; margin-bottom: 2px;">
+                                                            </div>
+
+
+                                                            198  West 21th Street, Suite 721<br />
+                                                            New York NY 10010<br />
+                                                            Email: youremail@yourdomain.com<br />
+                                                            Phone: +88 (0) 101 0000 000<br />
+                                                            Fax: +88 (0) 202 0000 001
+
+                                                        <div class="separator  transparent center  " style="margin-top: 12px; margin-bottom: 2px;">
+                                                        </div>
+
+
+                                                            <span class='q_social_icon_holder normal_social'><a href='http://twitter.com/' target='_blank'><i class='fa fa-twitter fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+
+                                                            <span class='q_social_icon_holder normal_social'><a href='http://www.facebook.com/' target='_blank'><i class='fa fa-facebook fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+
+                                                            <span class='q_social_icon_holder normal_social'><a href='https://plus.google.com/' target='_blank'><i class='fa fa-google-plus fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+
+                                                            <span class='q_social_icon_holder normal_social'><a href='http://instagram.com/' target='_blank'><i class='fa fa-instagram fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+
+                                                            <span class='q_social_icon_holder normal_social'><a href='https://www.tumblr.com/' target='_blank'><i class='fa fa-tumblr fa-lg simple_social' style='font-size: 17px;'></i></a></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column2">
+                                                <div class="column_inner">
+                                                    <div id="recent-posts-10" class="widget widget_recent_entries">
+                                                        <h5>Latest From Our Blog</h5>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="../NewDesign/inteligent-transitions-in-ux-design/index.html">Transitions In UX Design</a>
+                                                                <span class="post-date">October 4, 2013</span>
+                                                            </li>
+                                                            <li>
+                                                                <a href="../NewDesign/portugal-2013-road-trip-gallery/index.html">Portugal 2013 road-trip gallery</a>
+                                                                <span class="post-date">October 4, 2013</span>
+                                                            </li>
+                                                            <li>
+                                                                <a href="../NewDesign/josh-woodward-already-there/index.html">Josh Woodward &#8211; Already There</a>
+                                                                <span class="post-date">October 4, 2013</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column3">
+                                                <div class="column_inner">
+                                                    <div id="text-4" class="widget widget_text">
+                                                        <h5>More Links</h5>
+                                                        <div class="textwidget">
+                                                            <a href="../NewDesign/index.html">Home Presentation</a>
+
+                                                            <div class="separator  transparent center  " style="margin-top: 3px; margin-bottom: 9px;">
+                                                            </div>
+
+
+                                                            <a href="../NewDesign/responsive-image/index.html">Custom Image Title</a>
+
+                                                            <div class="separator  transparent center  " style="margin-top: 3px; margin-bottom: 9px;">
+                                                            </div>
+
+
+                                                            <a href="../NewDesign/custom-fonts/index.html">Custom Font Style</a>
+
+                                                            <div class="separator  transparent center  " style="margin-top: 3px; margin-bottom: 9px;">
+                                                            </div>
+
+
+                                                            <a href="../NewDesign/parallax-presentation/index.html">Parallax Sections</a>
+
+                                                            <div class="separator  transparent center  " style="margin-top: 3px; margin-bottom: 9px;">
+                                                            </div>
+
+
+                                                            <a href="../NewDesign/contact/index.html">Contact Us</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column4">
+                                                <div class="column_inner">
+                                                    <div id="text-5" class="widget widget_text">
+                                                        <h5>PHOTO STREAM</h5>
+                                                        <div class="textwidget">
+                                                            <div class="wpb_flickr_widget wpb_content_element">
+                                                                <div class="wpb_wrapper">
+                                                                    <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=71865026@N00"></script>
+                                                                    <p class="flickr_stream_wrap"><a class="wpb_follow_btn wpb_flickr_stream" href="http://www.flickr.com/photos/71865026@N00">View stream on flickr</a></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_bottom_holder">
+                            <div class="footer_bottom">
+                                <div class="textwidget"><span>&copy; Copyright Qode Interactive</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/qode-like5152.js?ver=1.0'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/plugins1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/jquery.carouFredSel-6.2.11678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/lemmon-slider1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/jquery.fullPage.min1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/jquery.mousewheel.min1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/jquery.touchSwipe.min1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/plugins/js_composer/assets/lib/isotope/dist/isotope.pkgd.min7035.js?ver=4.3.4'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/TweenLite.min1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/ScrollToPlugin.min1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/smoothPageScroll1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&amp;ver=4.0.7'></script>
+        <script type='text/javascript'>
+                    /* <![CDATA[ */
+                    var no_ajax_obj = { "no_ajax_pages": ["http:\/\/demo.qodeinteractive.com\/bridge\/shop\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/cart\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/checkout\/", false, false, "index.html\/\/demo.qodeinteractive.com\/bridge\/my-account\/", false, false, "index.html\/\/demo.qodeinteractive.com\/bridge\/portfolio\/with-text\/four-columns-grid\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/sunglasses-case\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/madrid-weekend-bag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/leather-vanity-case\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/tablet-sleeve\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/leather-weekend-bag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/vintage-handbag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/travel-leather-bag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/vintage-travel-bag\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/smartphone-cover\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/leather-briefcase\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/laptop-leather-sleeve\/", "index.html\/\/demo.qodeinteractive.com\/bridge\/product\/leather-wallet\/", "", "http:\/\/demo.qodeinteractive.com\/bridge\/wp-login.php?action=logout&_wpnonce=8661fcd5d1"] };
+/* ]]> */
+        </script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/default_dynamic8610.js?ver=1490607301'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/default.min1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/custom_js8610.js?ver=1490607301'></script>
+        <script type='text/javascript' src='../NewDesign/wp-includes/js/comment-reply.min1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/ajax.min1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/plugins/js_composer/assets/js/js_composer_front7035.js?ver=4.3.4'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/woocommerce1678.js?ver=4.0.7'></script>
+        <script type='text/javascript' src='../NewDesign/wp-content/themes/bridge/js/select2.min1678.js?ver=4.0.7'></script>
+    </form>
+</body>
+</html>

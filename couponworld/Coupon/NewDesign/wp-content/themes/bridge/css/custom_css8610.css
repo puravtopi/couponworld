@@ -1,0 +1,78 @@
+
+
+footer .column1 {
+position: relative;
+top: -18px;
+}
+
+.cover_boxes ul li .box .box_content { top: 0; }
+.cover_boxes ul li .box .qbutton { margin-top: 18px; }
+
+
+#nav-menu-item-14860 li,
+#nav-menu-item-14862 li,
+#nav-menu-item-14864 li,
+#nav-menu-item-14866 li,
+#nav-menu-item-14870 li,
+#nav-menu-item-14875 li,
+#nav-menu-item-14883 li,
+#nav-menu-item-14888 li,
+#nav-menu-item-14894 li,
+#nav-menu-item-14898 li,
+#nav-menu-item-14901 li,
+#nav-menu-item-14904 li,
+#nav-menu-item-14909 li,
+#nav-menu-item-14914 li,
+#nav-menu-item-14923 li,
+#nav-menu-item-14925 li,
+#nav-menu-item-14929 li,
+#nav-menu-item-14933 li,
+#nav-menu-item-14939 li,
+#nav-menu-item-14941 li,
+#nav-menu-item-15106 li,
+#nav-menu-item-15108 li,
+#nav-menu-item-15116 li,
+#nav-menu-item-15118 li
+{
+width: 280px;
+}
+
+.drop_down .second .inner .widget {
+padding-bottom: 13px;
+}
+
+.drop_down .second .inner .widget a{
+padding: 0px !important;
+}
+
+.projects_holder{font-size: 0.1px;}
+
+@media only screen and (max-width: 1000px){
+    header .q_logo img.normal{
+        height:80px !important;
+    }
+}
+
+.q_accordion_holder.accordion .ui-accordion-header {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+nav.mobile_menu ul > li#mobile-menu-item-14859.has_sub > span.mobile_arrow {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+.custom_font_responsive .custom_font_holder:nth-child(3) {
+font-size: 36px !important;
+line-height: 50px !important;
+}
+}
+.full_width {
+position: relative;
+}
+.gallery_holder ul li.grayscale a img {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}

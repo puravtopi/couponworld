@@ -1,0 +1,28 @@
+﻿.bannerdiv {
+    min-height: 300px;
+    background-color: #F99D22;
+    margin: 10px 10px 10px 10px;
+}
+
+.stylelbl {
+    text-align: left;
+    margin-bottom: 2px;
+    font-size: larger;
+}
+
+.h1titel {
+    text-align: center;
+    margin: 0.5em 0 0.5em;
+    font-size: 2.0em;
+    color: #000;
+}
+
+.litab {
+    height: 70px;
+    width: 250px;
+    background: #7CBBC1;
+}
+
+    .litab a h5 {
+        vertical-align: central;
+    }
